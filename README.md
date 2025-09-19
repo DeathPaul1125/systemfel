@@ -10,7 +10,7 @@ Permite administrar productos, clientes, proveedores, facturas y reportes de man
 - [Laravel 12.x](https://laravel.com/) - Framework PHP
 - [Livewire](https://laravel-livewire.com/) - Interactividad sin salir de Laravel
 - [Tailwind CSS](https://tailwindcss.com/) - Estilos modernos y responsivos
-- [MySQL ] - Base de datos
+- [MySQL](https://www.mysql.com/) - Base de datos
 - [Alpine.js](https://alpinejs.dev/) - Scripts livianos para el frontend
 
 ---
