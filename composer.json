@@ -18,7 +18,9 @@
         "laravel/sanctum": "^4.0",
         "laravel/tinker": "^2.10.1",
         "livewire/livewire": "^3.6.4",
-        "secondnetwork/blade-tabler-icons": "^3.35"
+        "rappasoft/laravel-livewire-tables": "^3.7",
+        "secondnetwork/blade-tabler-icons": "^3.35",
+        "wireui/wireui": "^2.4"
     },
     "require-dev": {
         "fakerphp/faker": "^1.23",

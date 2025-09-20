@@ -5,16 +5,17 @@
         <ol class="flex flex-wrap">
             @foreach ($breadcrumbs as $item)
 
-                <li class="text-sm leading-normal text-slate-700 {{ !$loop->first ? "pl-2 before:float-left before:pr-2 before:content-['/']" : '' }}">
-
-                    @isset($item['href'])
-                        <a href="{{$item['href']}}" class="opacity-50">
+                <li class="text-sm leading-normal text-slate-700 pl-2">
+                    @if (!$loop->first)
+                        <span class="pr-2"> / </span>
+                    @endif
+                    @isset($item['url'])
+                        <a href="{{$item['url']}}" class="opacity-50">
                             {{ $item['name'] }}
                         </a>
                     @else
                         {{ $item['name'] }}
                     @endisset
-
                 </li>
 
             @endforeach
